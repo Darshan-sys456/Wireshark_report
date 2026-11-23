@@ -1,0 +1,65 @@
+# WIRESHARK TRAFFIC REPORT
+
+**Date:** Monday, 23 November 2026  
+**Time:** 10:44:38 AM IST
+
+---
+
+
+
+**Total Packets Captured:** 59
+
+---
+
+
+
+**Protocol Hierarchy Statistics**
+
+**Filter:** No Filter
+
+| Protocol | Frames | Bytes |
+|---|---:|---:|
+| frame | 59 | 18,312 |
+| └── eth | 59 | 18,312 |
+| &nbsp;&nbsp;&nbsp;&nbsp;├── arp | 4 | 240 |
+| &nbsp;&nbsp;&nbsp;&nbsp;└── ip | 55 | 18,072 |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── udp | 4 | 697 |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;└── dns | 4 | 697 |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── tcp | 51 | 17,375 |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── tls | 16 | 8,041 |
+
+---
+
+
+
+**IPv4 Endpoints**
+
+**Filter:** No Filter
+
+| IP Address | Packets | Bytes | Tx Packets | Tx Bytes | Rx Packets | Rx Bytes |
+|---|---:|---:|---:|---:|---:|---:|
+| 192.168.28.128 | 55 | 18 kB | 24 | 5,012 bytes | 31 | 13 kB |
+| 150.171.27.10 | 35 | 15 kB | 19 | 11 kB | 16 | 4,379 bytes |
+| 150.171.110.84 | 7 | 522 bytes | 4 | 297 bytes | 3 | 225 bytes |
+| 20.85.17.170 | 5 | 282 bytes | 2 | 120 bytes | 3 | 162 bytes |
+| 192.168.28.2 | 4 | 697 bytes | 4 | 697 bytes | 0 | 0 bytes |
+| 150.171.110.87 | 4 | 870 bytes | 2 | 624 bytes | 2 | 246 bytes |
+
+---
+
+
+
+**IPv4 Conversations**
+
+**Filter:** No Filter
+
+| Source IP | Destination IP | Frames (←) | Bytes (←) | Frames (→) | Bytes (→) | Total Frames | Total Bytes | Relative Start | Duration |
+|---|---|---:|---:|---:|---:|---:|---:|---:|---:|
+| 192.168.28.128 | 150.171.27.10 | 19 | 11 kB | 16 | 4,379 bytes | 35 | 15 kB | 0.434987685 | 1.2658 |
+| 150.171.110.84 | 192.168.28.128 | 3 | 225 bytes | 4 | 297 bytes | 7 | 522 bytes | 2.537801619 | 0.0030 |
+| 192.168.28.128 | 20.85.17.170 | 2 | 120 bytes | 3 | 162 bytes | 5 | 282 bytes | 2.405650422 | 1.2805 |
+| 192.168.28.2 | 192.168.28.128 | 0 | 0 bytes | 4 | 697 bytes | 4 | 697 bytes | 0.432766677 | 0.0013 |
+| 192.168.28.128 | 150.171.110.87 | 2 | 624 bytes | 2 | 246 bytes | 4 | 870 bytes | 1.587086130 | 0.1030 |
+
+---
+
